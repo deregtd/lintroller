@@ -1,4 +1,4 @@
-module github.com/getoutreach/lintroller
+module github.com/deregtd/lintroller
 
 go 1.21
 
