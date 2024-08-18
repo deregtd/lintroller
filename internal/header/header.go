@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/getoutreach/lintroller/internal/common"
+	"github.com/deregtd/lintroller/internal/common"
 	"golang.org/x/tools/go/analysis"
 )
 

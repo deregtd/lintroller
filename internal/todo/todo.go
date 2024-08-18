@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/getoutreach/lintroller/internal/common"
-	"github.com/getoutreach/lintroller/internal/reporter"
+	"github.com/deregtd/lintroller/internal/common"
+	"github.com/deregtd/lintroller/internal/reporter"
 	"golang.org/x/tools/go/analysis"
 )
 

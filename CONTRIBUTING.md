@@ -26,7 +26,7 @@ If you want to test a package exposed in this repository in a project that uses 
 add the following `replace` directive to that project's `go.mod` file:
 
 ```
-replace github.com/getoutreach/lintroller => /path/to/local/version/lintroller
+replace github.com/deregtd/lintroller => /path/to/local/version/lintroller
 ```
 
 **_Note_**: This repository may have postfixed it's module path with a version, go check the first

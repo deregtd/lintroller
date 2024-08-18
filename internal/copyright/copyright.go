@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/getoutreach/lintroller/internal/common"
+	"github.com/deregtd/lintroller/internal/common"
 	"golang.org/x/tools/go/analysis"
 )
 
@@ -22,7 +22,7 @@ import (
 const name = "copyright"
 
 // doc defines the help text for the copyright linter.
-const doc = `Ensures each .go file has a comment at the top of the file containing the 
+const doc = `Ensures each .go file has a comment at the top of the file containing the
 copyright string requested via flags.`
 
 // Analyzer exports the copyright analyzer (linter).
